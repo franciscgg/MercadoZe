@@ -130,9 +130,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(242, 386);
+            button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
+            button1.Location = new Point(221, 383);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(125, 36);
             button1.TabIndex = 10;
             button1.Text = "Cadastrar";
             button1.UseVisualStyleBackColor = true;
@@ -149,34 +150,37 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 15.75F, FontStyle.Italic, GraphicsUnit.Point);
+            label7.Font = new Font("Segoe UI Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(40, 130);
             label7.Name = "label7";
-            label7.Size = new Size(184, 30);
+            label7.Size = new Size(212, 30);
             label7.TabIndex = 12;
             label7.Text = "Cadastro de Acesso";
             // 
             // textBox4
             // 
+            textBox4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.Location = new Point(96, 85);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
+            textBox4.Size = new Size(144, 29);
             textBox4.TabIndex = 13;
             // 
             // button2
             // 
-            button2.Location = new Point(354, 71);
+            button2.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
+            button2.Location = new Point(293, 81);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(125, 34);
             button2.TabIndex = 14;
             button2.Text = "Buscar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // CadastroUsuario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(562, 450);
+            ClientSize = new Size(541, 450);
             Controls.Add(button2);
             Controls.Add(textBox4);
             Controls.Add(label7);
